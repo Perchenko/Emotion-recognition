@@ -16,7 +16,7 @@ Download tensorrt from https://developer.nvidia.com/compute/machine-learning/ten
 docker build -t emotions -f Dockerfile .
 ```
 
-Download weights for retinaface and arcface neural networks from https://nextcloud.mtsai.tk/s/7cLsXB8AXftYJCf and move them to src/tensorrtx/retinaface and src/tensorrtx/arcface respectively
+Download weights for retinaface and arcface neural networks and move them to src/tensorrtx/retinaface and src/tensorrtx/arcface respectively
 
 Run docker container. (for instance: docker run --gpus 0 -it -p 8123:8888 -v /opt/perchenko/emotions:/emotions emotions)
 
